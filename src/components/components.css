@@ -1,0 +1,59 @@
+.Form-container {
+    border: 1px solid lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Basic-form {
+  display: flex;
+  flex-direction: column;
+  /* background-color: chartreuse; */
+  /* max-width: 70%; */
+}
+
+.Label-input {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 2.5rem 0 2.5rem;
+}
+
+.Label-input > small {
+  color: limegreen;
+  opacity: 0.5;
+}
+.Label {
+  margin-bottom: 0.2rem;
+}
+
+.Input {
+  padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
+
+.Reg-btn {
+  padding: 0.3rem 0;
+  margin: 1.5rem 2.5rem 0.5rem 2.5rem;
+  border: 0;
+  background-color: lightblue;
+  line-height: 2;
+  border-radius: 5px;
+}
+.Reg-btn :hover {
+    background-color: blue;
+}
+
+.Container-div {
+  /* border: 1px solid lightblue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Nav-container {
+   border: 1px solid lightblue;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0.5rem 0;
+}
